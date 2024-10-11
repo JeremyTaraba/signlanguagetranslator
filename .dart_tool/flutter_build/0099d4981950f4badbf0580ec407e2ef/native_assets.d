@@ -1,0 +1,1 @@
+ C:\\Users\\jghos\\Documents\\GitHub\\signlanguagetranslator\\.dart_tool\\flutter_build\\0099d4981950f4badbf0580ec407e2ef\\native_assets.yaml: 
