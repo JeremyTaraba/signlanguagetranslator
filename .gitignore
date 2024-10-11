@@ -31,3 +31,8 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+
+/lib/pages/new_chat/api_keys.dart
+
+
