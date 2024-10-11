@@ -290,6 +290,12 @@
       "languageVersion": "3.1"
     },
     {
+      "name": "flutter_localizations",
+      "rootUri": "file:///C:/src/flutter/flutter/packages/flutter_localizations",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
       "name": "flutter_plugin_android_lifecycle",
       "rootUri": "file:///C:/Users/jghos/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.17",
       "packageUri": "lib/",
@@ -980,7 +986,7 @@
       "languageVersion": "3.3"
     }
   ],
-  "generated": "2024-10-11T00:33:02.441492Z",
+  "generated": "2024-10-11T00:56:11.085599Z",
   "generator": "pub",
   "generatorVersion": "3.3.4"
 }

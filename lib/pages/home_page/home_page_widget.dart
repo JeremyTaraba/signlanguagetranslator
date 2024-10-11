@@ -1,4 +1,3 @@
-import 'package:coding_minds_template/pages/schools/schools_page.dart';
 import 'package:flutter/cupertino.dart';
 
 import '/auth/firebase_auth/auth_util.dart';
@@ -39,7 +38,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () => _model.unfocusNode.canRequestFocus ? FocusScope.of(context).requestFocus(_model.unfocusNode) : FocusScope.of(context).unfocus(),
+      onTap: () => _model.unfocusNode.canRequestFocus
+          ? FocusScope.of(context).requestFocus(_model.unfocusNode)
+          : FocusScope.of(context).unfocus(),
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
@@ -75,7 +76,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
               ),
               Center(
                 child: Text(
-                  DateTime.now().month.toString() + "/" + DateTime.now().day.toString(),
+                  DateTime.now().month.toString() +
+                      "/" +
+                      DateTime.now().day.toString(),
                   style: TextStyle(fontSize: 56),
                 ),
               ),
@@ -92,9 +95,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                               style: TextStyle(fontSize: 30),
                             ),
                             GestureDetector(
-                              onTap: () {
-                                Navigator.of(context).push(MaterialPageRoute(builder: (context) => SchoolsPage()));
-                              },
+                              onTap: () {},
                               child: Container(
                                 height: 150,
                                 width: 150,
@@ -104,7 +105,8 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                 ),
                                 child: Padding(
                                   padding: const EdgeInsets.all(16.0),
-                                  child: ImageIcon(AssetImage("assets/icons/graduate.png")),
+                                  child: ImageIcon(
+                                      AssetImage("assets/icons/graduate.png")),
                                 ),
                               ),
                             ),
@@ -132,7 +134,8 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                 ),
                                 child: Padding(
                                   padding: const EdgeInsets.all(24.0),
-                                  child: ImageIcon(AssetImage("assets/icons/award.png")),
+                                  child: ImageIcon(
+                                      AssetImage("assets/icons/award.png")),
                                 ),
                               ),
                             ),
@@ -164,7 +167,8 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                 ),
                                 child: Padding(
                                   padding: const EdgeInsets.all(16.0),
-                                  child: ImageIcon(AssetImage("assets/icons/content-writing.png")),
+                                  child: ImageIcon(AssetImage(
+                                      "assets/icons/content-writing.png")),
                                 ),
                               ),
                             ),
@@ -192,7 +196,8 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                 ),
                                 child: Padding(
                                   padding: const EdgeInsets.all(24.0),
-                                  child: ImageIcon(AssetImage("assets/icons/calendar.png")),
+                                  child: ImageIcon(
+                                      AssetImage("assets/icons/calendar.png")),
                                 ),
                               ),
                             ),
