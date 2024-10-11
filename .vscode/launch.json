@@ -1,0 +1,228 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "coding_minds_template",
+            "cwd": "CounselingApp\\coding_minds_template",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "coding_minds_template (profile mode)",
+            "cwd": "CounselingApp\\coding_minds_template",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "coding_minds_template (release mode)",
+            "cwd": "CounselingApp\\coding_minds_template",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "$RIVNKMD",
+            "cwd": "$Recycle.Bin\\S-1-5-21-3330531718-1085522697-2869363736-1001\\$RIVNKMD",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "$RIVNKMD (profile mode)",
+            "cwd": "$Recycle.Bin\\S-1-5-21-3330531718-1085522697-2869363736-1001\\$RIVNKMD",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "$RIVNKMD (release mode)",
+            "cwd": "$Recycle.Bin\\S-1-5-21-3330531718-1085522697-2869363736-1001\\$RIVNKMD",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "conselor_app",
+            "cwd": "CounselingApp\\coding_minds_template\\conselor_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "conselor_app (profile mode)",
+            "cwd": "CounselingApp\\coding_minds_template\\conselor_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "conselor_app (release mode)",
+            "cwd": "CounselingApp\\coding_minds_template\\conselor_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "coding_minds_template",
+            "cwd": "Users\\32771\\coding_minds_template",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "coding_minds_template (profile mode)",
+            "cwd": "Users\\32771\\coding_minds_template",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "coding_minds_template (release mode)",
+            "cwd": "Users\\32771\\coding_minds_template",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "Documents",
+            "cwd": "Users\\32771\\Documents",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "Documents (profile mode)",
+            "cwd": "Users\\32771\\Documents",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "Documents (release mode)",
+            "cwd": "Users\\32771\\Documents",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "Cards",
+            "cwd": "Users\\32771\\StudioProjects\\Cards",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "Cards (profile mode)",
+            "cwd": "Users\\32771\\StudioProjects\\Cards",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "Cards (release mode)",
+            "cwd": "Users\\32771\\StudioProjects\\Cards",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "Counseling_app",
+            "cwd": "Users\\32771\\StudioProjects\\Counseling_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "Counseling_app (profile mode)",
+            "cwd": "Users\\32771\\StudioProjects\\Counseling_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "Counseling_app (release mode)",
+            "cwd": "Users\\32771\\StudioProjects\\Counseling_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "counselor",
+            "cwd": "Users\\32771\\StudioProjects\\counselor",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "counselor (profile mode)",
+            "cwd": "Users\\32771\\StudioProjects\\counselor",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "counselor (release mode)",
+            "cwd": "Users\\32771\\StudioProjects\\counselor",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "smthing",
+            "cwd": "Users\\32771\\StudioProjects\\smthing",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "smthing (profile mode)",
+            "cwd": "Users\\32771\\StudioProjects\\smthing",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "smthing (release mode)",
+            "cwd": "Users\\32771\\StudioProjects\\smthing",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "untitled",
+            "cwd": "Users\\32771\\StudioProjects\\untitled",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "untitled (profile mode)",
+            "cwd": "Users\\32771\\StudioProjects\\untitled",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "untitled (release mode)",
+            "cwd": "Users\\32771\\StudioProjects\\untitled",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "untitled1",
+            "cwd": "Users\\32771\\StudioProjects\\untitled1",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "untitled1 (profile mode)",
+            "cwd": "Users\\32771\\StudioProjects\\untitled1",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "untitled1 (release mode)",
+            "cwd": "Users\\32771\\StudioProjects\\untitled1",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
