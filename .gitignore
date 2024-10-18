@@ -34,5 +34,5 @@ google-services.json
 
 
 /lib/pages/new_chat/api_keys.dart
-
+/lib/firebase_options.dart
 
