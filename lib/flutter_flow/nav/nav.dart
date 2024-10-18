@@ -88,13 +88,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               appStateNotifier.loggedIn ? NavBarPage() : LoginSignupWidget(),
         ),
         FFRoute(
-          name: 'HomePage',
-          path: '/homePage',
-          builder: (context, params) => params.isEmpty
-              ? NavBarPage(initialPage: 'HomePage')
-              : HomePageWidget(),
-        ),
-        FFRoute(
           name: 'LoginSignup',
           path: '/loginSignup',
           builder: (context, params) => LoginSignupWidget(),
@@ -105,53 +98,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => params.isEmpty
               ? NavBarPage(initialPage: 'Settings')
               : SettingsWidget(),
-        ),
-        FFRoute(
-          name: 'Chat',
-          path: '/chat',
-          asyncParams: {
-            'chatRef': getDoc(['chats'], ChatsRecord.fromSnapshot),
-          },
-          builder: (context, params) => ChatWidget(
-            chatRef: params.getParam(
-              'chatRef',
-              ParamType.Document,
-            ),
-          ),
-        ),
-        FFRoute(
-          name: 'ChatNav',
-          path: '/chatNav',
-          builder: (context, params) => params.isEmpty
-              ? NavBarPage(initialPage: 'ChatNav')
-              : ChatNavWidget(),
-        ),
-        FFRoute(
-          name: 'chat_2_InviteUsers',
-          path: '/chat2InviteUsers',
-          asyncParams: {
-            'chatRef': getDoc(['chats'], ChatsRecord.fromSnapshot),
-          },
-          builder: (context, params) => Chat2InviteUsersWidget(
-            chatRef: params.getParam(
-              'chatRef',
-              ParamType.Document,
-            ),
-          ),
-        ),
-        FFRoute(
-          name: 'image_Details',
-          path: '/imageDetails',
-          asyncParams: {
-            'chatMessage':
-                getDoc(['chat_messages'], ChatMessagesRecord.fromSnapshot),
-          },
-          builder: (context, params) => ImageDetailsWidget(
-            chatMessage: params.getParam(
-              'chatMessage',
-              ParamType.Document,
-            ),
-          ),
         ),
         FFRoute(
           name: 'Profile',

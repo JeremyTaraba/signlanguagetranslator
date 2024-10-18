@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 class HistoryPage extends StatefulWidget {
   const HistoryPage({super.key});
@@ -22,12 +23,37 @@ class _HistoryPageState extends State<HistoryPage> {
         body: Column(
           children: [
             Card(
-              child: Row(
-                children: [
-                  Text("Date"),
-                  Spacer(),
-                  Text("Hello"),
-                ],
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Column(
+                  children: [
+                    Text(
+                      "Date",
+                      style: TextStyle(fontSize: 32),
+                    ),
+                    Text(
+                      "sample text this is what happens when asdfasdfasdfasdfasdthe text is too bug tjrsadfjaoiewja sdofj oaisjdf oiasjdfoi ",
+                      style: TextStyle(fontSize: 25),
+                    )
+                  ],
+                ),
+              ),
+            ),
+            Card(
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Column(
+                  children: [
+                    Text(
+                      "Date",
+                      style: TextStyle(fontSize: 32),
+                    ),
+                    Text(
+                      "sample text this is what happens when asdfasdfasdfasdfasdthe text is too bug tjrsadfjaoiewja sdofj oaisjdf oiasjdfoi ",
+                      style: TextStyle(fontSize: 25),
+                    )
+                  ],
+                ),
               ),
             )
           ],
