@@ -16,9 +16,7 @@ import 'package:flutter/foundation.dart'
 /// ```
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
-    if (kIsWeb) {
-      return web;
-    }
+  
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
         return android;
@@ -46,30 +44,20 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCxrsvLzpHu0o63dk9BCcyWHDh2wRDA1-o',
-    appId: '1:300152250651:web:e91ae2f68664a3e0d4b3be',
-    messagingSenderId: '300152250651',
-    projectId: 'counseling-app-e18d8',
-    authDomain: 'counseling-app-e18d8.firebaseapp.com',
-    storageBucket: 'counseling-app-e18d8.appspot.com',
-    measurementId: 'G-M82PJRXD55',
-  );
-
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDx_awyiXR18mS1oBc3tS9lpUthD2MF5KA',
-    appId: '1:300152250651:android:3854f460ba0db192d4b3be',
-    messagingSenderId: '300152250651',
-    projectId: 'counseling-app-e18d8',
-    storageBucket: 'counseling-app-e18d8.appspot.com',
+    apiKey: 'AIzaSyDanaxcZxHguz1GUJXQmYrCsYKo2uY3hjU',
+    appId: '1:495452649430:android:109b0d3d095622a3419677',
+    messagingSenderId: '495452649430',
+    projectId: 'hand-translator-a6b9f',
+    storageBucket: 'hand-translator-a6b9f.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDtAWZOfR-ET3ajo95BYNke_rUPiiMTIXg',
-    appId: '1:300152250651:ios:f766690e1724415fd4b3be',
-    messagingSenderId: '300152250651',
-    projectId: 'counseling-app-e18d8',
-    storageBucket: 'counseling-app-e18d8.appspot.com',
-    iosBundleId: 'cm.codingmindstemplate',
+    apiKey: 'AIzaSyAqr-wA9T-M0jNyyhwR9RMnTQoMG72yCFA',
+    appId: '1:495452649430:ios:07f2ca406ba1aee1419677',
+    messagingSenderId: '495452649430',
+    projectId: 'hand-translator-a6b9f',
+    storageBucket: 'hand-translator-a6b9f.appspot.com',
+    iosBundleId: 'com.jeremytaraba.signlanguage.signlanguagetranslator',
   );
 }

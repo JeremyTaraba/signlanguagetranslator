@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
+import 'package:signlanguagetranslator/pages/camera/camera_page.dart';
+import 'package:signlanguagetranslator/pages/history/history_page.dart';
 
 import 'auth/firebase_auth/firebase_user_provider.dart';
 import 'auth/firebase_auth/auth_util.dart';
@@ -80,7 +82,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
-      title: 'Coding Minds Template',
+      title: 'Hand Translator',
       supportedLocales: const [Locale('en', '')],
       theme: ThemeData(
         brightness: Brightness.light,
@@ -108,7 +110,7 @@ class NavBarPage extends StatefulWidget {
 
 /// This is the private State class that goes with NavBarPage.
 class _NavBarPageState extends State<NavBarPage> {
-  String _currentPageName = 'HomePage';
+  String _currentPageName = 'History';
   late Widget? _currentPage;
 
   @override
@@ -121,9 +123,9 @@ class _NavBarPageState extends State<NavBarPage> {
   @override
   Widget build(BuildContext context) {
     final tabs = {
-      'HomePage': HomePageWidget(),
-      // 'ChatNav': ChatPage(),
-      'Settings': SettingsWidget(),
+      'History': const HistoryPage(),
+      'CameraPage': const CameraPage(),
+      'Settings': const SettingsWidget(),
     };
     final currentIndex = tabs.keys.toList().indexOf(_currentPageName);
 
@@ -144,16 +146,16 @@ class _NavBarPageState extends State<NavBarPage> {
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.home,
-              size: 24.0,
+              Icons.history,
+              size: 40.0,
             ),
             label: 'Home',
             tooltip: '',
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.forum_outlined,
-              size: 24.0,
+              Icons.camera_alt_outlined,
+              size: 40.0,
             ),
             label: '__',
             tooltip: '',
@@ -161,7 +163,7 @@ class _NavBarPageState extends State<NavBarPage> {
           BottomNavigationBarItem(
             icon: Icon(
               Icons.settings,
-              size: 24.0,
+              size: 40.0,
             ),
             label: 'Settings',
             tooltip: '',
